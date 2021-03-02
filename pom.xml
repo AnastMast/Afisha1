@@ -64,6 +64,9 @@
                     </execution>
                 </executions>
                 <configuration>
+                    <excludes>
+                        <exclude>ru/netology/domain/*</exclude>
+                    </excludes>
                     <rules>
                         <rule>
                             <limits>
